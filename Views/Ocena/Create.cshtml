@@ -1,0 +1,25 @@
+@model Ocena
+
+<h1 class="mt-4">Dodaj Nową Ocenę</h1>
+
+<form asp-action="Create" method="post" class="mt-3">
+    <div class="form-group">
+        <label asp-for="Komentarz"></label>
+        <input asp-for="Komentarz" class="form-control" />
+        <span asp-validation-for="Komentarz" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Wartosc"></label>
+        <input type="number" asp-for="Wartosc" class="form-control" />
+        <span asp-validation-for="Wartosc" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="DrinkId">Drinki</label>
+        <select asp-for="DrinkId" class="form-control" asp-items="ViewBag.Drinki">
+            <option value="">-- Wybierz drinki --</option>
+        </select>
+        <span asp-validation-for="DrinkId" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Zapisz</button>
+    <a class="btn btn-secondary" asp-action="Index">Powrót</a>
+</form>

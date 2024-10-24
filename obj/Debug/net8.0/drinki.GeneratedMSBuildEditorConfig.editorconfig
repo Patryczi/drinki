@@ -18,6 +18,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\studieren\gromada\drinki
 build_property._RazorSourceGeneratorDebug = 
 
+[E:/studieren/gromada/drinki/Views/Drink/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpbmtcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/studieren/gromada/drinki/Views/Drink/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpbmtcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/studieren/gromada/drinki/Views/Drink/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpbmtcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/studieren/gromada/drinki/Views/Drink/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpbmtcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/studieren/gromada/drinki/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -26,12 +42,40 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/studieren/gromada/drinki/Views/Kategoria/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlhXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/studieren/gromada/drinki/Views/Kategoria/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/studieren/gromada/drinki/Views/Ocena/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2NlbmFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/studieren/gromada/drinki/Views/Ocena/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2NlbmFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/studieren/gromada/drinki/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/studieren/gromada/drinki/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/studieren/gromada/drinki/Views/Skladnik/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2tsYWRuaWtcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/studieren/gromada/drinki/Views/Skladnik/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2tsYWRuaWtcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/studieren/gromada/drinki/Views/Skladnik/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2tsYWRuaWtcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/studieren/gromada/drinki/Views/_ViewImports.cshtml]

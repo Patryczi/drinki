@@ -1,0 +1,21 @@
+@model Skladnik
+
+<h1>Dodaj Nowy Składnik</h1>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="Nazwa"></label>
+        <input asp-for="Nazwa" class="form-control" />
+        <span asp-validation-for="Nazwa" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="DrinkId">Drinki</label>
+        <select asp-for="DrinkId" class="form-control" asp-items="ViewBag.Drinki">
+            <option value="">-- Wybierz drinka --</option>
+        </select>
+        <span asp-validation-for="DrinkId" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Zapisz</button>
+    <a class="btn btn-secondary" asp-action="Index">Powrót</a>
+</form>
+

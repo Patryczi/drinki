@@ -39,10 +39,28 @@ button.accept-policy[b-v09f4jfng0] {
   line-height: inherit;
 }
 
-.footer[b-v09f4jfng0] {
-  position: absolute;
-  bottom: 0;
+html[b-v09f4jfng0], body[b-v09f4jfng0] {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body[b-v09f4jfng0] {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container[b-v09f4jfng0] {
+  flex: 1;
+}
+
+footer[b-v09f4jfng0] {
+  background-color: #f8f9fa;
+  padding: 10px 0;
+  text-align: center;
   width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
+  position: relative;
+  bottom: 0;
+  clear: both;
 }

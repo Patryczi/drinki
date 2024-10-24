@@ -1,0 +1,48 @@
+@model IEnumerable<Skladnik>
+
+<h1 class="mt-4">Lista Składników</h1>
+
+<form method="get" asp-action="Index" class="mb-3">
+    <div class="form-group row">
+        <label for="selectedDrinkId" class="col-sm-2 col-form-label">Filtruj po drinku:</label>
+        <div class="col-sm-4">
+        <select id="selectedDrinkId" name="selectedDrinkId" class="form-control">
+            <option value="">-- Wybierz drink --</option>
+            @foreach (var drink in ViewBag.Drinki)
+            {
+                <option value="@drink.Value">
+                    @drink.Text
+                </option>
+            }
+        </select>
+
+        </div>
+        <div class="col-sm-2">
+            <button type="submit" class="btn btn-primary">Filtruj</button>
+        </div>
+    </div>
+</form>
+
+<table class="table table-bordered table-striped mt-3">
+    <thead class="thead-light">
+        <tr>
+            <th>Nazwa</th>
+            <th>Drink</th>
+            <th>Akcje</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var skladnik in Model)
+        {
+            <tr>
+                <td>@skladnik.Nazwa</td>
+                <td>@skladnik.Drink.Nazwa</td>
+                <td>
+                    <a class="btn btn-warning btn-sm" asp-action="Edit" asp-route-id="@skladnik.SkladnikId">Edytuj</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a class="btn btn-success" asp-action="Create">Dodaj Nowy Składnik</a>

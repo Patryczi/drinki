@@ -1,0 +1,25 @@
+@model IEnumerable<Ocena>
+
+<h1 class="mt-4">Lista Ocen</h1>
+
+<table class="table table-bordered table-striped mt-3">
+    <thead class="thead-light">
+        <tr>
+            <th>Wartość</th>
+            <th>Komenatarz</th>
+            <th>Drink</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var ocena in Model)
+        {
+            <tr>
+                <td>@ocena.Wartosc</td>
+                <td>@ocena.Komentarz</td>
+                <td>@ocena.Drink.Nazwa</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a class="btn btn-success" asp-action="Create">Dodaj Nową Ocenę</a>
